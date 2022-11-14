@@ -8,6 +8,9 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../static/css/style.css">
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 </head>
 
 <body>
@@ -18,8 +21,8 @@
         </ul>
     </nav>
     <main>
-        <section id="jumbo">
-            <div class="container" style=>
+        <section id="jumbo"> 
+            <div class="container">
                 <h1>Julian's Games</h1>
                 <p>An experience</p>
             </div>
@@ -32,18 +35,17 @@
                         <li>Minecraft</li>
                         <li>Civilization 6</li>
                     </ul>
-
             </div>
         </section>
 
         <section id="steam-wishlist">
             <h2>Steam Wishlist</h2>
             <ul id="wishlist">
-
+                
             </ul>
         </section>
 
-        <script src="" async defer></script>
+        <script type="text/babel" src="../static/js/steam.js" async defer></script>
     </main>
     <footer>2022, Julian Lechner</footer>
 </body>
