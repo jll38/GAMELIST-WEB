@@ -13,7 +13,7 @@ nav{
     background-color:black;
     margin: 0;
     padding:10px;
-    border-bottom:#1b2529 4px solid;
+    border-bottom:black 4px solid;
     opacity: .5;
     min-height: 30px;
 }
@@ -40,7 +40,7 @@ h1{
     font-size:300%;
 }
 h2{
-    text-transform: uppercase;
+    
 }
 
 footer{
@@ -79,7 +79,9 @@ footer{
 
 
 #jumbo h1{
-    margin-top: 100px;
+    font-family: 'Paytone One';
+    font-size:400%;
+    margin-top: 130px;
     text-align: center;
     margin-bottom: 0px;
     text-shadow: #1b2529 2px 2px 2px;
@@ -89,24 +91,34 @@ footer{
     text-align: center;
     font-size:30px;
     text-shadow: #1b2529 1px 1px 2px;
+    text-transform: uppercase;
 }
 
-#fav-games{
+#recently-played{
     border: solid red 2px;
     text-align:center;
 }
 
-#fav-games h2{
-    
+#recently-played h2{
+    font-size: 200%;
+    text-shadow: black 2px 1px 2px;
+    text-transform: uppercase;
+    margin: 10px 0 0 0;
 }
 
-#fav-games ul{
+#recently-played ul{
+    font-size:125%;
+    text-shadow: black 2px 1px 2px;
+    text-transform: uppercase;
+}
+
+#recently-played ul{
     padding: 0;
     margin: 0;
     
 }
 
-#fav-games li{
+#recently-played li{
     display:inline-block;
     float:left;
     padding: 0 20px 0 20px;

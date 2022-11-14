@@ -9,8 +9,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../static/css/style.css">
     <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
-  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -21,28 +27,30 @@
         </ul>
     </nav>
     <main>
-        <section id="jumbo"> 
+        <section id="jumbo">
             <div class="container">
                 <h1>Julian's Games</h1>
                 <p>An experience</p>
             </div>
         </section>
-        <section id="fav-games">
+        <section id="recently-played">
             <div class="container">
-                <h2>Favorite Games</h2>
-                    <ul>
-                        <li>Sonic Frontiers</li>
-                        <li>Minecraft</li>
-                        <li>Civilization 6</li>
-                    </ul>
+                <h2>Recently Played</h2>
+                <div id="recently-played-list">
+
+                </div>
             </div>
         </section>
 
         <section id="steam-wishlist">
-            <h2>Steam Wishlist</h2>
-            <ul id="wishlist">
-                
-            </ul>
+            <div class="container">
+
+
+                <h2>Steam Wishlist</h2>
+                <ul id="wishlist">
+
+                </ul>
+            </div>
         </section>
 
         <script type="text/babel" src="../static/js/steam.js" async defer></script>
